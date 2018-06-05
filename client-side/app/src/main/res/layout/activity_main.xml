@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/urlEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textUri"
+        android:text="URL Video" />
+
+    <EditText
+        android:id="@+id/batteryEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|number"
+        android:text="Battery level" />
+
+    <EditText
+        android:id="@+id/connEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="Connection (e.g. wifi, data)" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+
+    <Button
+        android:id="@+id/downloadResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Result" />
+
+    <Button
+        android:id="@+id/openDownloadedFolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/openFolder" />
+
+    <Button
+        android:id="@+id/checkConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Connection" />
+
+    <TextView
+        android:id="@+id/batteryView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/connectionView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final Project</string>
+
+    <string name="download_Result">Download Result</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+
+    <string name="wifi_connection">Connection is : wifi</string>
+    <string name="mobile_connection">Connection is : data</string>
+    <string name="no_wifi_or_mobile">No wifi or data connection</string>
+
+    <string name="openFolder">Open Downloaded Folder</string>
+</resources>

@@ -1,10 +1,10 @@
 # Mobile-Adaptation
 
-Implementation for convert mp4 from paramater battery and type connection
+Implementation for convert mp4 from paramater battery and type connection (use ffmpeg for conversion quality mp4 file)
 
 # Server-side
 
-Code for the server (web server) and logic that will convert mp4 quality based on battery and type connection
+Code for the server (web server) and logic that will convert mp4 quality use ffmpeg for quality conversion
 
 # Client-side
 
